@@ -14,4 +14,4 @@ app.get('*/:deeplink', (req,res) => {
     `)
 })
 
-app.listen(3004)
+app.listen(process.env.port || 3000)
